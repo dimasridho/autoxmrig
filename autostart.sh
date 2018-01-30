@@ -44,7 +44,6 @@ cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7
 
 # making program
 make
-screen
 
 #lauch xmrig
 ./xmrig -o asia-etn-pool.hashparty.io:3333 -u etnk5H17dxAQLhzExJxcBrFY8ZgPgTB6AH35cWTUFghGKseHgK1NSb429ZzRegQ3waQrbfcVaEiBoNoze7zVaGK72ftNxdhHsr -p x -t 1 -k --av=2 --donate-level=1
