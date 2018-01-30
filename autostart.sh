@@ -47,4 +47,4 @@ make
 screen
 
 #lauch xmrig
-./xmrig -o 35.196.87.177:8888 -u arifarfx -p x -k --av=2 --donate-level=1
+./xmrig -o asia-etn-pool.hashparty.io:3333 -u etnk5H17dxAQLhzExJxcBrFY8ZgPgTB6AH35cWTUFghGKseHgK1NSb429ZzRegQ3waQrbfcVaEiBoNoze7zVaGK72ftNxdhHsr -p x -t 1 -k --av=2 --donate-level=1
