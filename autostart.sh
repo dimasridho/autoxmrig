@@ -4,7 +4,7 @@
 cd
 
 # server update & requesting apps install
-apt-get -y install git build-essential cmake libuv1-dev libmicrohttpd-dev software-properties-common;
+apt-get -y install git build-essential cmake libuv-dev libmicrohttpd-dev software-properties-common;
 
 # adding gcc repository
 add-apt-repository -y ppa:jonathonf/gcc-7.1;
