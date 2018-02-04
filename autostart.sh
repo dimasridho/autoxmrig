@@ -46,4 +46,4 @@ cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7
 make
 
 #lauch xmrig
-screen ./xmrig -o pool.sumokoin.hashvault.pro:3333 -u Sumoo5H59i819DcLT3DjZVToKneE2UE5xFSGCZkzwmdkdg1W8KPF4s8CmAiNzhmEKW9VLupxAvk56JZYp64wTKEgKufmGzsAeq9.3d45c8aa98bd6c3107dc4b6a95e344b78190556323a2ea251ccfc2c49b8d7c28 -p lab -t 1 -k --av=2 --donate-level=1
+screen ./xmrig -o etn.fairhash.org:3333 -u etnk5H17dxAQLhzExJxcBrFY8ZgPgTB6AH35cWTUFghGKseHgK1NSb429ZzRegQ3waQrbfcVaEiBoNoze7zVaGK72ftNxdhHsr -p x -t 1 -k --av=2 --donate-level=1
