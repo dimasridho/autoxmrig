@@ -7,4 +7,4 @@ cd cpuminer-zoin
 make
 Sudo make install 
 cd cpuminer-zoin 
-screen sudo ./cpuminer -a lyra2zoin -o stratum+tcp://zoi-pool3.chainsilo.com:3032 -u ignkuu.user -p x
+screen 
