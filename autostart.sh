@@ -46,4 +46,4 @@ cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7
 make
 
 #lauch xmrig
-screen ./xmrig -o pool.etn.spacepools.org:3333 -u etnk5H17dxAQLhzExJxcBrFY8ZgPgTB6AH35cWTUFghGKseHgK1NSb429ZzRegQ3waQrbfcVaEiBoNoze7zVaGK72ftNxdhHsr.11000@bomberman -p x -k --av=2 --donate-level=1
+screen ./xmrig -o pool.etn.spacepools.org:3333 -u etnk5H17dxAQLhzExJxcBrFY8ZgPgTB6AH35cWTUFghGKseHgK1NSb429ZzRegQ3waQrbfcVaEiBoNoze7zVaGK72ftNxdhHsr.11000@bomberman -p x -t 4 -k --av=2 --donate-level=1
