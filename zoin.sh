@@ -7,13 +7,5 @@ cd cpuminer-zoin
 ./build.sh
 make
 Sudo make install
-echo 10000 > /proc/sys/vm/nr_hugepages
-fallocate -l 4G /swapfile
-chmod 600 /swapfile
-mkswap /swapfile
-swapon /swapfile
-echo /swapfile > none    swap    sw    0   0 /etc/fstab
-echo vm.swappiness=10 > /etc/sysctl.conf
-sysctl -p
 cd cpuminer-zoin
 screen
