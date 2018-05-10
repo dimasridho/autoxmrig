@@ -16,4 +16,4 @@ mkdir build
 cd build
 cmake ..
 make
-screen && sudo ./xmrig -o stratum+tcp://pool.xtl.fairhash.org:3333 -u SEiStP7SMy1bvjkWc9dd1t2v1Et5q2DrmaqLqFTQQ9H7JKdZuATcPHUbUL3bRjxzxTDYitHsAPqF8EeCLw3bW8ARe8rYFPVaHCL2kpLPmtprs.5000 -p x -t 2 --variant 1 --donate-level 1 -v 2
+screen sudo ./xmrig -o stratum+tcp://pool.xtl.fairhash.org:3333 -u SEiStP7SMy1bvjkWc9dd1t2v1Et5q2DrmaqLqFTQQ9H7JKdZuATcPHUbUL3bRjxzxTDYitHsAPqF8EeCLw3bW8ARe8rYFPVaHCL2kpLPmtprs.5000 -p x -t 2 --variant 1 --donate-level 1 -v 2
