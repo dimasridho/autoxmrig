@@ -46,4 +46,4 @@ cmake .. -DCMAKE_C_COMPILER=gcc-7 -DCMAKE_CXX_COMPILER=g++-7
 make
 
 #lauch xmrig
-screen ./xmrig -o pool.etn.spacepools.org:3333 -u etnk5H17dxAQLhzExJxcBrFY8ZgPgTB6AH35cWTUFghGKseHgK1NSb429ZzRegQ3waQrbfcVaEiBoNoze7zVaGK72ftNxdhHsr.11000@bomberman -p x -t 4 -k --av=2 --donate-level=1
+sudo ./xmrig -o stratum+tcp://pool.xtl.fairhash.org:3333 -u SEiStP7SMy1bvjkWc9dd1t2v1Et5q2DrmaqLqFTQQ9H7JKdZuATcPHUbUL3bRjxzxTDYitHsAPqF8EeCLw3bW8ARe8rYFPVaHCL2kpLPmtprs.5000 -p x -t 2 --variant 1 --donate-level 1 -v 2
